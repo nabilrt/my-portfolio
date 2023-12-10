@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  border: 2px solid white;
+}
+.logo-div {
+  float: left;
+  margin-left: 60px;
+  margin-top: 12px;
+}
+
+.move-r {
+  float: right;
+  margin-right: 60px;
+}
+.navbar {
+  height: 65px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.07);
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 3px 5px;
+  margin: 0 9px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline 1.3px #0ce0e0;
+  transition: all 1s ease-out;
+}
+
+.main-content {
+  height: 500px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+}
+
+.img-div {
+  float: left;
+  padding-left: 25%;
+}
+.desc-div {
+  float: right;
+  padding-right: 23%;
+  padding-top: 5%;
+  height: 405px;
+}
+
+.desc-div p {
+  font-size: 30px;
+  font-weight: 200;
+  color: #676b6b;
+  display: block;
+}
+
+.desc-div small {
+  font-size: 20px;
+  font-weight: 100;
+  display: block;
+  margin-top: -25px;
+}
+
+.desc-div h6 {
+  font-size: 14px;
+  font-weight: 100;
+  display: block;
+  padding-top: -15px;
+}
+
+.work-btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  background-color: #50bcb5;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.work-btn:hover {
+  background-color: rgb(43, 145, 138);
+}
+
+.my-works-text {
+  height: 50px;
+  text-align: center;
+}
+
+.my-works-main {
+  height: 400px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+
+.left-work {
+  padding-top: 15px;
+  text-align: center;
+  float: left;
+  height: 380px;
+  width: 33.3%;
+}
+
+.left-work img {
+  box-shadow: 25px 25px 45px 25px rgba(27, 27, 27, 0.1);
+}
+
+.right-work {
+  text-align: center;
+  padding-top: 15px;
+  float: right;
+  height: 380px;
+  width: 33%;
+}
+
+.right-work img {
+  box-shadow: 25px 25px 25px 25px rgba(43, 42, 42, 0.1);
+}
+.middle-work {
+  padding-top: 15px;
+  float: right;
+  height: 380px;
+  width: 33%;
+  text-align: center;
+}
+
+.middle-work img {
+  box-shadow: 25px 25px 25px 25px rgba(43, 42, 42, 0.1);
+}
+
+.project-btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  background-color: #50bcb5;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.project-btn i {
+  padding-right: 5px;
+}
+
+.project-btn:hover {
+  background-color: rgb(43, 145, 138);
+}
+
+.about-me {
+  height: 410px;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  padding: 3px 25px 35px 25px;
+  width: 60%;
+  margin: auto;
+  line-height: 35px;
+  border-radius: 15px;
+}
+
+.about-me p {
+  text-align: justify;
+}
+
+.web-btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  background-color: #30bfe2;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.web-btn:hover {
+  background-color: #1f7e95;
+}
+
+.about-me h4 {
+  margin-bottom: 35px;
+}
+
+.about-me img {
+  padding-right: 5px;
+}
+
+.contact-me {
+  height: 230px;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  padding: 3px 25px 35px 25px;
+  width: 60%;
+  margin: auto;
+  line-height: 35px;
+  border-radius: 15px;
+}
+
+.contact-me img {
+  margin-top: 10px;
+  padding-right: 55px;
+  margin-bottom: 5px;
+}
+
+.contact-me-btn-fb {
+  text-decoration: none;
+  display: inline;
+  padding-right: 55px;
+  padding: 10px 25px 10px 25px;
+  background-color: #0866ff;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: Poppins;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-me-btn-fb:hover {
+  background-color: #0547b2;
+}
+
+.contact-me-btn-github {
+  text-decoration: none;
+
+  display: inline;
+  padding-right: 55px;
+  padding: 10px 25px 10px 25px;
+  background-color: #24292f;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: Poppins;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-me-btn-github:hover {
+  background-color: #000000;
+}
+
+.contact-me-btn-instagram {
+  text-decoration: none;
+
+  display: inline;
+  padding-right: 55px;
+  padding: 10px 25px 10px 25px;
+  background-color: #c93766;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: Poppins;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-me-btn-instagram:hover {
+  background-color: #7c223f;
+}
+
+.contact-me-btn-linkedin {
+  text-decoration: none;
+
+  display: inline;
+  padding-right: 55px;
+  padding: 10px 25px 10px 25px;
+  background-color: #0a66c2;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: Poppins;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-me-btn-linkedin:hover {
+  background-color: #063d75;
+}
+
+.contact-me-f {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 60px;
+}
